@@ -337,13 +337,13 @@ body {
   .weather-forecast .icon.fog {
     background-image: url("../images/fog.png"); }
   .weather-forecast .icon.cloudy {
-    background-image: url("../../images/cloudy.png"); }
+    background-image: url("././images/cloudy.png"); }
   .weather-forecast .icon.partly-cloudy-day {
     background-image: url("../images/partly-cloudy.png"); }
   .weather-forecast .icon.partly-cloudy-night {
     background-image: url("../images/partly-cloudy.png"); }
   .weather-forecast .icon.thunderstorms {
-    background-image: url("../../images/thunderstorm.png"); }
+    background-image: url("https://daughty.github.io/Weather_App/images/cloudy.png"); }
 
 @media (max-width: 450px) {
   .weather-forecast .date, .weather-forecast .description {
