@@ -16,22 +16,22 @@ var dataCacheName = 'weatherData-v2';
 var cacheName = 'weatherPWA-step-8-2';
 var filesToCache = [
   '/',
-  'Weather_App/index.html',
-  'Weather_App/scripts/app.js',
-  'Weather_App/styles/inline.css',
-  'Weather_App/images/clear.png',
-  'Weather_App/images/cloudy-scattered-showers.png',
-  'Weather_App/images/cloudy.png',
-  'Weather_App/images/fog.png',
-  'Weather_App/images/ic_add_white_24px.svg',
-  'Weather_App/images/ic_refresh_white_24px.svg',
-  'Weather_App/images/partly-cloudy.png',
-  'Weather_App/images/rain.png',
-  'Weather_App/images/scattered-showers.png',
-  'Weather_App/images/sleet.png',
-  'Weather_App/images/snow.png',
-  'Weather_App/images/thunderstorm.png',
-  'Weather_App/images/wind.png'
+  'index.html',
+  'scripts/app.js',
+  'styles/inline.css',
+  'images/clear.png',
+  'images/cloudy-scattered-showers.png',
+  'images/cloudy.png',
+  'images/fog.png',
+  'images/ic_add_white_24px.svg',
+  'images/ic_refresh_white_24px.svg',
+  'images/partly-cloudy.png',
+  'images/rain.png',
+  'images/scattered-showers.png',
+  'images/sleet.png',
+  'images/snow.png',
+  'images/thunderstorm.png',
+  'images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
