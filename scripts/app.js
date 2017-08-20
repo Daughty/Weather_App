@@ -143,7 +143,7 @@
           response.json().then(function updateFromCache(json) {
             var results = json.query.results;
             //results.key = key;
-            results.label =  response.query.results.channel.city;
+            results.label =  results.channel.location.city;
             results.created = json.query.created;
             app.updateForecastCard(results);
           });
